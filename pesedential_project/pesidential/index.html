@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Presedential register</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <a href="./pesident_login.html">click to next</a>
+  <section id="pre_register">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="pbanner_1 col-lg-7 ms-0 ps-0 mb-0">
+          <img src="./Presidential-Passs-login-banner (3).png" alt="" class="img-fluid">
+        </div>
+        <div class="pregister col-lg-5 d-flex align-items-center">
+         
+
+          <div>
+            <!-- modal start  -->
+            <div id="myModal" class="modal text-center">
+
+              <!-- Modal content -->
+              <div class="modal-content1">
+                <span class="close"></span>
+
+                <div class="top_title">
+                  <h3 class="pb-4">Your Verification no. is</h3>
+
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="vcode">
+                      <h4 class="d-flex pt-2 justify-content-center">5</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="vcode">
+                      <h4 class="d-flex pt-2 justify-content-center">5</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="vcode">
+                      <h4 class="d-flex pt-2 justify-content-center">5</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="vcode">
+                      <h4 class="d-flex pt-2 justify-content-center">5</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="book_1 pt-5">
+                  <button type="submit" class="nbook">Copy</button>
+                </div>
+                <div class="cc"></div>
+
+              </div>
+              <div class="cc"></div>
+
+            </div>
+            <!-- modal end  -->
+            <form action="
+          " class="pform">
+              <h3 class="frtitle pb-4">Register Now ! </h3>
+              <input type="text" class="pr_int" placeholder="Name">
+              <input type="number" class="pr_int my-3" placeholder="Phone No.">
+
+              <input type="email" class="pr_int " placeholder="Email Address">
+              <input type="text" class="pr_int my-3" placeholder="Pesidential Pass">
+              <div class="pr_button d-flex align-items-center justify-content-center mb-2" id="myBtn"> Submit
+              </div>
+              <p class="asign ">Already Register? <span>Sign in</span></p>
+              <div class="cc"></div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function () {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+body{
+    height: 20vh !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+.pbanner{
+   
+    overflow: hidden;
+
+}
+/* Register  */
+.pbanner_1 img{
+    width: 100%;
+    height: 100vh;
+}
+.pbanner img{
+    width: 100%;
+height: 102vh;
+
+}
+/* update  profile  */
+.pbanner_2 img{
+    width: 100%;
+    height: 109vh;
+}
+/* list image  */
+.pbanner_3 img{
+    width: 100%;
+    height: 107vh; 
+}
+
+.frtitle{
+    color: #085CA7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+.fltitle{
+    color: #ccc;
+    text-align: center;
+}
+.pregister{
+    position: relative;
+}
+.pform{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+    width: 70%;
+   left: 10%;
+    
+
+}
+.pr_int{
+    background-color: #EEEEEE;
+    border-radius: 5px ;
+    height: 7vh;
+    outline: none;
+    border: none;
+    padding: 0px 5px;
+   width: 100%;
+}
+.pr_button{
+    border-radius: 5px ;
+    height: 7vh;
+    outline: none;
+    border: none;
+    background-color: #51b748;
+    width: 100%;
+    color: #ffffff;
+    cursor: pointer;
+}
+.asign{
+    float: right;
+
+}
+.asign span{
+    color: #085CA7;
+    font-weight: 450;
+}
+.cc{
+    clear: both;
+}
+::placeholder{
+    color: #adaaaa;
+}
+
+/* modal start  */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+left: 58%;
+  top: 0;
+  transform: translateX(58%);
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+}
+.close{
+    display: none;
+}
+
+/* Modal Content */
+.modal-content1 {
+
+  background-color: #ffffff;
+  
+  padding: 40px;
+  margin-top: 10vh;
+float: left;
+margin-left: 117px;
+overflow: hidden;
+width: 25%;
+border-radius: 5px ;
+position: relative;
+
+
+}
+.cc{
+    clear: both;
+}
+.modal-content1 .top_title h3{
+    text-align: center;
+}
+.modal-content1  .top_title p{
+    text-align: center;
+    color: #c1c1c1;
+}
+.top_title h3{
+    font-size: 26px;
+    font-weight: 490;
+    color: #085ca7;
+}
+
+/* The Close Button */
+
+
+
+.nbook{
+    background-color: #51b748;
+    display: inline;
+    height: 5vh;
+    width: 100px;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    color: #ffffff;
+}
+.vcode{
+    width: 50px;
+    height: 50px;
+ border: 1px solid #ccc;
+}
+
+/* modal end  */
+.bbtn{
+    cursor: pointer;
+}
+/* student list start  */
+.s_top{
+    float:  right;
+    
+}
+/* .s_top .fa{
+    color: #ffffff;
+    font-size: 26px;
+    background-color: #085CA7;
+    border-radius: 50%;
+    padding: 9px 10px;
+} */
+/* .ms_list{
+    /* border-top: 1px solid #ccc; 
+} */
+.ms_list-top{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ms_list-top h3{
+    color: #085CA7;
+}
+.ms_list-top .fa-plus{
+    background-color: #adaaaa;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 15px;
+}
+.ms_list-top .fa-search{
+    color: #adaaaa;
+    font-size: 26px;
+    margin-right: 15px;
+
+}
+.dlist{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9e7e7;
+   
+    padding: 10px 10px 0 10px;
+}
+.dlist p{
+    font-size: 22px;
+}
+.dlist .fa{
+color: #51b748;
+font-size: 24px;
+}
+.wlist{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+   
+    padding: 10px 10px 0 10px;
+}
+.wlist p{
+    font-size: 22px;
+}
+.wlist .fa{
+    color: #51b748;
+    font-size: 24px;
+    }
+    
+/* student list end  */
+/* student list 1 start  */
+.s_top1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px 0px 25px;
+}
+.stu-arrow {
+    color: #085CA7;
+    font-size: 16px;
+
+}
+
+.s_top1 .fa-bars{
+    color: #ffffff;
+    font-size: 26px;
+   
+  
+}
+.fa-times{
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    padding: 3px 5px 5px 5px;
+    color: #9ba19c;
+}
+.sinfo{
+    border: 1px solid #ccc;
+    padding: 20px 0px 15px 25px;
+}
+.sinfo span{
+    color: #085CA7;
+}
+.sinfo p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* check box start  */
+#ss{
+    
+   padding-top: 20px;
+   padding-bottom: 6vh;
+}
+
+.ssborder{
+    border: 0.5px solid #ccc;
+    position: relative;
+    width: 87%;
+    padding: 20px 0;
+}
+#ss h3{
+    color: #085CA7;
+}
+.sstitle{
+    font-size: 18px;
+    font-weight: 500;
+}
+.scheck{
+  padding: 20px;
+}
+
+
+
+ /* checkbox  */
+
+
+/* The container */
+.container1 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #9ba19c;
+ 
+}
+
+/* On mouse-over, add a grey background color */
+.container1:hover input ~ .checkmark {
+  background-color: #9ba19c;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #51b748;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container1 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container1 .checkmark:after {
+  left: 7px;
+  top: 4px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.ssborder .sspan {
+    background-color: #e1b3cc;
+    color: #c42867;
+    padding: 3px 10px;
+    border-radius: 5px;
+
+}
+/* check box end  */
+.price{
+    width: 100%;
+    background-color: #ededed;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+  padding: 0px 20px;
+    height: 10vh;
+
+}
+.price h5{
+    background-color: #51b748;
+    padding: 5px 20px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+/* student list 1 end  */
+/* update_profile start  */
+.uimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.utitle{
+    color: #085CA7;
+    text-align: center;
+}
+.up_int{
+    width: 100%;
+    height: 7vh;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    padding-left: 15px;
+
+}
+::placeholder{
+    color: #000000;
+}
+.dup_int{
+    background-color: #e9e7e7;
+}
+.utitle_1{
+    color: #085CA7;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.uplist p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.up_btn {
+    outline: none;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    background-color: #51b748;
+    height: 7vh;
+    color: #ffffff;
+   
+}
+/* update_profile end  */
+/* pesidential start  */
+.logo img{
+    width: 120px;
+}
+.content h3{
+    color: #085ca7;
+    text-align: center;
+    padding: 20px 0;
+}
+.pm_btn{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 10vw;
+}
+.pm_1{
+    width: 170px;
+    height: 8vh;
+    border: 1px solid #51b748;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.pm_1 a{
+    color: #51b748;
+    font-size: 20px;
+    text-decoration: none;
+}
+.pm_2{
+    width: 170px;
+    height: 8vh;
+    background-color: #51b748;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+   
+
+}
+.pm_2 a{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.pm_img{
+    width: 100%;
+    height: 100vh;
+  
+    
+}
+/* pesidential end  */
+#member{
+    background: url(./adult-man-holding-big-empty-placard-pointing-it_1368-51831.png);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    
+}
+/* tabs start  */
+
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab  ul li a{
+   
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #696969;
+   
+  
+
+
+  }
+  .tabcontent {
+    display: none;
+    
+   
+    border-top: none;
+  }
+/* student_history start  */
+.stu_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vh 25px 10px 25px;
+}
+.stu_img {
+    text-align: center;
+}
+.stu_img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.stu_left svg{
+    color: #085CA7;
+   
+}
+
+.r_date{
+    display: flex;
+    justify-content: space-between;
+}
+.rd_right{
+    background-color: #eaeaea;
+    width: 120px;
+    height: 5vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stu_top{
+    border: 1px solid #ccc;
+    padding:  20px 30px;
+}
+.hrs_title{
+text-align: center;
+padding: 7vh 0;
+color: #085CA7;
+}
+.sr_table1{
+    padding: 5vh 30px;
+ 
+    width: 100%;
+    height: 77vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+   
+ 
+}
+.sr_1{
+    width: 75%;
+
+ 
+
+}
+.sr_head{
+    background-color: #085CA7;
+    color: #ffffff;
+    height: 7vh;
+  text-align: center;
+  
+}
+.sr_dark{
+    background-color: #e9eaeb;
+    height: 7vh;
+    text-align: center;
+   border-top: 7px solid #ffffff;
+}
+.sr_white{
+    background-color: #ffffff;
+    height: 7vh;
+    text-align: center;
+
+}
+.sr_dark1{
+    background-color: #e9eaeb;
+    height: 7vh;
+    text-align: center;
+
+}
+.t_title{
+    color: #085CA7;
+    font-size: 20px;
+    padding-top: 3vh;
+    
+   
+}
+.sr_2{
+    width: 100%;
+}
+/* student_history end  */
+/* admin history start  */
+.adm{
+    padding-right: 30px;
+}
+.adm_logo img{
+    width: 100px;
+
+}
+.adm_top{
+    border:  1px solid #ccc;
+    padding:  20px;
+}
+.das{
+    background-color: #f5f5f5;
+    color: #085CA7;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    padding: 0px 20px;
+}
+.ladm_dark{
+    color: #000000;
+    background-color: #f5f5f5;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: space-between;
+    font-weight:500;
+    font-size:20px;
+}
+.t_title1{
+    color: #085CA7;
+    font-size: 20px;
+    padding-top: 0px;
+}
+.ladm_white{
+    color: #000000;
+    height: 9vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    margin: 0px 0px;
+    justify-content: space-between;
+    font-weight:500;
+    font-size:20px;
+}
+.hr_title{
+    color: #085CA7;
+    text-align: center;
+}
+.hr_clear{
+    color: #085CA7;
+    text-align: end;
+  padding-right: 30px;
+  font-weight: 400;
+}
+.adm_hr{
+    padding: 5vh 20px 4vh 40px;
+}
+.vb_left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.s_view{
+    padding-top: 5vh;
+}
+.view_title{
+    color: #085CA7;
+    font-weight: 400;
+    font-size: 20px;
+}
+.view_box1{
+    display: flex;
+    justify-content: space-between;
+}
+.view-box{
+    height: 15vh;
+    background-color:#f5f5f5;
+    padding: 15px 30px 15px 10px;
+    
+}
+.sr_view{
+    font-size: 20px ;
+    font-weight: 520;
+    padding-left: 15px;
+    font-family: sans-serif;
+}
+.sd{
+    text-decoration: none;
+    color: #085CA7;
+}
+.rm{
+    text-decoration: none;
+    color: red;
+}
+.adm_hr{
+    box-shadow: -3px -2px 5px -2px #777;
+}
+.s_top{
+    background-color: #085CA7;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s_top .fa-bars{
+    color: #ffffff;
+
+}
+/* admin history end  */
